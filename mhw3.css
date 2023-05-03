@@ -1,0 +1,165 @@
+body{
+    margin: 0px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: red;
+    margin: 40px 0px 40px 0px;
+   
+}
+
+nav{
+    padding: 20px 20px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+}
+
+button {
+    color:white;
+    background-color: rgb(0,0,0);
+    padding: 10px 10px;
+    margin: 0px;
+}
+ #abs{
+    position:absolute;
+    right: 10px;
+ }
+
+ h1{
+    margin: 0px;
+    font-size: 6em;
+    color: black;
+ }
+
+ section{
+    display: flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items: center;
+
+ }
+ #spotify-view{
+    display: flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+.sottotitle{
+    font-size: 5em;
+    color:red;
+    width:1500px;
+    background-color: black;
+    margin-bottom: 0px;
+    padding:1px;
+   
+    border: 7px solid black;
+    
+ }
+
+ .txt{
+    background-color: rgba(255, 0, 0, 0.3);
+    width:1500px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    font-size: 2.5em;
+    text-align: center ;
+    border: 7px solid black;
+    min-width: 300px;
+   
+ }
+
+ #ybutt {
+    display:flex;
+    text-align: left;
+    margin-left: 70px;
+    margin-top:20px;
+    font-size: 20px;
+ }
+
+ footer{
+    border-bottom:7px solid black;
+    height:300px;
+    background-color: red;
+    display: flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    
+}
+#profile{
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+}
+
+#foot{
+    padding: 0px;
+    border-radius: 13px;
+    background-color: white;
+}
+
+
+
+#foot4{
+     padding: 0px;
+    border-radius: 13px;
+    background-color: black;
+
+}
+
+#ref{
+    height: 43px;
+    width: 43px;
+    border-radius: 10px;
+}
+
+#food-view{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#food-view span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+
+
+ #spot img{
+    width: 30px;
+    height: 30px;
+}
+
+#spotify-view .spot{
+    display: flex;
+    flex-direction: column;
+}
+
+#spotify-view span{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#spotify-view img{
+    width: 600px;
+    height: 600px;
+    margin-top: 35px;
+    
+}
+
